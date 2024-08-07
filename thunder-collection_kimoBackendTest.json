@@ -1,0 +1,151 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "kimoBackendTest",
+    "collectionId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+    "dateExported": "2024-08-07T12:19:47.888Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "ec6370de-95cf-41c0-9af9-8e42fb337887",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses",
+            "url": "http://127.0.0.1:8000/courses",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-07T12:17:50.946Z",
+            "modified": "2024-08-07T12:17:50.946Z",
+            "headers": []
+        },
+        {
+            "_id": "ff5bc7ab-95d2-4a59-b1a6-e89e2c4634dd",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses/courseName",
+            "url": "http://127.0.0.1:8000/courses/Highlights%20of%20Calculus",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-07T12:18:09.829Z",
+            "modified": "2024-08-07T12:18:09.829Z",
+            "headers": []
+        },
+        {
+            "_id": "750dd1cf-f2c6-4572-b57c-7bba2ebf991e",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses/courseName/chapters/chapterName",
+            "url": "http://127.0.0.1:8000/courses/Introduction%20to%20Programming/chapters/This%20is%20CS50x%202022,%20now%20in%204K%20HDR",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-08-07T12:18:18.412Z",
+            "modified": "2024-08-07T12:18:18.412Z",
+            "headers": []
+        },
+        {
+            "_id": "b7ec5c17-f085-4a82-914a-6b44d652a88b",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses/courseName/chapters/chapterName/rate",
+            "url": "http://127.0.0.1:8000/courses/Computer%20Vision%20Course/chapters/Image%20Classification/rate",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-08-07T12:18:26.584Z",
+            "modified": "2024-08-07T12:18:26.584Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"rating\" : \"negative\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "f26a7949-521a-492f-8c14-a042744e05c5",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses?sort_by=alphabetical",
+            "url": "http://localhost:8000/courses?sort_by=alphabetical",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-08-07T12:18:40.352Z",
+            "modified": "2024-08-07T12:18:40.352Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sort_by",
+                    "value": "alphabetical",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "3f07c458-82c0-429f-b355-db94e38a4333",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses?sort_by=date",
+            "url": "http://localhost:8000/courses?sort_by=date",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-08-07T12:18:47.916Z",
+            "modified": "2024-08-07T12:18:47.916Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sort_by",
+                    "value": "date",
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "4838d1fc-f222-4919-b787-a0d3d08c995c",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses?sort_by=rating",
+            "url": "http://localhost:8000/courses?sort_by=rating",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-08-07T12:19:26.200Z",
+            "modified": "2024-08-07T12:19:26.200Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sort_by",
+                    "value": "rating",
+                    "isPath": false
+                },
+                {
+                    "name": "domain",
+                    "value": "mathematics",
+                    "isDisabled": true,
+                    "isPath": false
+                }
+            ]
+        },
+        {
+            "_id": "285719c6-a45d-467c-98e5-7c11e1777cef",
+            "colId": "a5c4a480-8b3d-426a-9d19-459c89ef7958",
+            "containerId": "",
+            "name": "/courses?sort_by=rating&domain=mathematics",
+            "url": "http://localhost:8000/courses?sort_by=rating&domain=mathematics",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-08-07T12:19:35.281Z",
+            "modified": "2024-08-07T12:19:35.281Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sort_by",
+                    "value": "rating",
+                    "isPath": false
+                },
+                {
+                    "name": "domain",
+                    "value": "mathematics",
+                    "isPath": false
+                }
+            ]
+        }
+    ],
+    "ref": "yXXEgo7rbnOvBpGQggfmiFpmpZHXoDBK6F-OCQ4OMbX60B5TPaTNr7BqvbocZjz9lqv-aMoQ5InFqyL3JR4Fcw"
+}
