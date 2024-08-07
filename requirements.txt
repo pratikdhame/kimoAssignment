@@ -1,6 +1,0 @@
-fastapi
-fastapi[standard]
-pymongo
-pydantic
-python-dotenv
-uvicorn
