@@ -60,6 +60,10 @@ def sort_courses(courses, sort_by):
         return sorted(courses, key=lambda x: x.get('total_rating', 0), reverse=True)
     return courses
 
+@app.get('/')
+def hello_world():
+    return "Hello,World"
+
 @app.get("/courses", response_model=List[CourseOverview])
 async def get_courses(
     sort_by: str = Query('alphabetical', enum=['alphabetical', 'date', 'rating']),
